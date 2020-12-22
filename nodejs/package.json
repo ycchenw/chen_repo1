@@ -1,0 +1,17 @@
+{
+  "name": "firstapp",
+  "version": "1.0.0",
+  "description": "just a test",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "multer": "file:multer",
+    "npm": "^6.14.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Chen",
+  "license": "ISC"
+}

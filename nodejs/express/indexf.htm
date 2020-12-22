@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh">
+<head>
+    <style type="text/css">
+    body{
+		font-size:16px;font-family:"微軟正黑體"
+    }
+    h3{
+        font-size:24px;text-decoration:underline;
+    }
+	/* class 選擇器  */
+	div.content{
+		padding:10px;border:1px dashed #888888;
+	}
+	/* id 選擇器  */
+	#btn{
+		border:3px solid #888888;
+		background-color:#ffffff;padding:5px;
+	}
+	/* 虛擬選擇器  */
+	/* :hover mouse over 虛擬選擇器  */	
+	#btn:hover{
+		background-color:#888888;
+	}
+	/* :focus 虛擬選擇器 須搭配其他  */	
+	input:focus{
+		border:4px solid #ffff00;
+	}
+	/* 階層選擇器 須搭配其他 */	
+	.favorite a{
+		color:#0000ff;
+	}
+	.demo a{
+		color:#008800;
+	}	
+    </style>
+</head>
+<body>
+	<h3>我的自我介紹</h3>
+	<div class="content">
+	    大家好 我是丫志。
+	</div>
+	<h3>我的最愛連結</h3>  
+	<ul class="favorite">
+		<li><a href="https://www.google.com/">Google</a></li>
+		<li><a href="https://www.facebook.com/">Facebook</a></li>
+		</ul>	
+	<h3>彭彭作品</h3>  
+	<ul class="demo">
+		<li><a href="https://training.pada-x.com/">課程網站</a></li>
+		<li><a href="https://piconion.com/">Piconion</a></li>
+		</ul>
+	<h3>和我連絡</h3>
+	<div class="content">
+	    填寫訊息 <input type="text" /> <button id="btn">送出</button>    
+	</div>	
+</body>
+</html>
